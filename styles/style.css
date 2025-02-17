@@ -142,17 +142,23 @@ tr:last-child td {
     width: 50%;
 }
 
+.col-text-pright {
+    font-weight: 600;
+    text-align: center;
+    padding-right: 200px;
+}
+
+.col-text-pleft {
+    font-weight: 600;
+    text-align: center;
+    padding-left: 200px;
+}
+
 .univ-img {
     width: 400px;
     height: 300px;
     object-fit: contain;
     border-radius: 50px;
-}
-
-.univ-text {
-    font-weight: 600;
-    text-align: center;
-    padding-right: 200px;
 }
 
 .sma-img {
@@ -162,12 +168,6 @@ tr:last-child td {
     border-radius: 50px;
 }
 
-.sma-text {
-    font-weight: 600;
-    text-align: center;
-    padding-right: 200px;
-}
-
 .smp-img {
     width: 500px;
     height: fit-content;
@@ -175,10 +175,25 @@ tr:last-child td {
     border-radius: 50px;
 }
 
-.smp-text {
-    font-weight: 600;
-    text-align: center;
-    padding-right: 200px;
+.img-queen {
+    width: fit-content;
+    height: 300px;
+    object-fit: contain;
+    border-radius: 50px;
+}
+
+.img-sentolo {
+    height: fit-content;
+    width: 300px;
+    object-fit: contain;
+    border-radius: 50px;
+}
+
+.img-pku {
+    height: fit-content;
+    width: 300px;
+    object-fit: contain;
+    border-radius: 50px;
 }
 
 /* Start Footer */
