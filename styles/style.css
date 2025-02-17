@@ -24,71 +24,11 @@ header {
     background-color: #2D3A3A;
 }
 
-.content-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    margin: 0;
-    padding: 0 10px;
-    width: 100%;
-    flex-grow: 1;
-}
-
-.content-title {
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: white;
-}
-
-.content {
-    display: grid;
-    grid-template-columns: 1fr;
-    max-width: 100%;
-}
-
-@media (min-width: 768px) {
-    .content {
-        grid-template-columns: 60% 40%;
-    }
-}
-
-.content-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-}
-
-.content-img img {
-    border-radius: 100%;
-    width: 200px;
-    height: 350px;
-    -webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-
-.content-img img:hover {
-    transform: scale(1.1);
-}
-
-.content-text {
-    display: flex;
-    flex-direction: column;
-    padding-left: 70px;
-}
-
 .logo {
     text-decoration: none;
-    font-size: 1.8em;
-    font-weight: 700;
+    font-size: 1.1em;
+    font-weight: 600;
     color: white;
-    -webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-
-.logo img:hover {
-    transform: scale(1.1);
 }
 
 .logo:hover {
@@ -109,6 +49,139 @@ nav a:hover {
     transition-duration: 0.3s;
 }
 
+nav a:active,
+nav a.active {
+    color: #f1c40f;
+    font-weight: 700;
+}
+/* End Header */
+
+
+/* Start Content index */
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin: 0;
+    padding: 0 10px;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.content-title {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.content {
+    display: grid;
+    /* grid-template-columns: 1fr; */
+    max-width: 100%;
+}
+
+@media (min-width: 768px) {
+    .content {
+        grid-template-columns: 60% 40%;
+    }
+}
+
+.index-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.index-img img {
+    border-radius: 100%;
+    width: 200px;
+    height: 350px;
+    -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.index-img img:hover {
+    transform: scale(1.1);
+}
+
+.index-text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+    text-align: justify;
+}
+/* End Content index */
+
+/* Start Pendidikan */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 20px;
+    border-bottom: 2px solid black
+}
+
+td img {
+    width: 100%;
+    height: auto;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+.img-col {
+    width: 50%;
+}
+
+.text-col {
+    width: 50%;
+}
+
+.univ-img {
+    width: 400px;
+    height: 300px;
+    object-fit: contain;
+    border-radius: 50px;
+}
+
+.univ-text {
+    font-weight: 600;
+    text-align: center;
+    padding-right: 200px;
+}
+
+.sma-img {
+    width: fit-content;
+    height: 400px;
+    object-fit: contain;
+    border-radius: 50px;
+}
+
+.sma-text {
+    font-weight: 600;
+    text-align: center;
+    padding-right: 200px;
+}
+
+.smp-img {
+    width: 500px;
+    height: fit-content;
+    object-fit: contain;
+    border-radius: 50px;
+}
+
+.smp-text {
+    font-weight: 600;
+    text-align: center;
+    padding-right: 200px;
+}
+
+/* Start Footer */
 .ln,
 .gm,
 .ig,
@@ -165,3 +238,4 @@ nav a:hover {
     font-size: 1.3em;
     padding: 0 12px 0 0;
 }
+/* End footer */
