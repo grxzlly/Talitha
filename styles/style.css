@@ -114,7 +114,7 @@ nav a.active {
 }
 /* End Content index */
 
-/* Start Pendidikan */
+/* Start Pendidikan, Pengalaman Pekerjaan, and Pengalaman Kepanitiaan */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -210,7 +210,38 @@ tr:last-child td {
     object-fit: contain;
     border-radius: 50px;
 }
+/* End Pendidikan, Pengalaman Pekerjaan, and Pengalaman Kepanitiaan */
 
+/* Start Kontak */
+.content-contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.icon-contact {
+    color: #2D3A3A;
+    font-size: 8em;
+    text-align: center;
+}
+
+.card {
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 /50%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+    text-decoration: none;
+    color: #2D3A3A;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+/* End Kontak */
 /* Start Footer */
 .ln,
 .gm,
