@@ -148,12 +148,6 @@ tr:last-child td {
     padding-right: 200px;
 }
 
-.col-text-pleft {
-    font-weight: 600;
-    text-align: center;
-    padding-left: 200px;
-}
-
 .univ-img {
     width: 400px;
     height: 300px;
@@ -192,6 +186,27 @@ tr:last-child td {
 .img-pku {
     height: fit-content;
     width: 300px;
+    object-fit: contain;
+    border-radius: 50px;
+}
+
+.kum-img {
+    width: fit-content;
+    height: 300px;
+    object-fit: contain;
+    border-radius: 50px;
+}
+
+.lect-img {
+    width: fit-content;
+    height: 300px;
+    object-fit: contain;
+    border-radius: 50px;
+}
+
+.kop-img {
+    width: fit-content;
+    height: 300px;
     object-fit: contain;
     border-radius: 50px;
 }
